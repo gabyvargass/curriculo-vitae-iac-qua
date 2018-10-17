@@ -1,2 +1,2 @@
-# curriculo-vitae-iac-qua
-este é um repositório aberto para meu currículo
+# Meu Curriculo
+## Gabriele Vargas
