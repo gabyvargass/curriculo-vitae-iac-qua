@@ -1,0 +1,92 @@
+Faça um algoritmo para ler um número e informar se ele está na faixa de números entre 100(inclusive) e 1000(inclusive).
+Algoritmo "faixa"
+Var
+	n : real
+Inicio
+  	escreva ("digite um numero qualquer: ")
+  	leia (n)
+  	se (n >= 100) e (n <=1000) entao
+     	escreval ("esta na faixa")
+   	senao
+        	escreval ("nao esta na faixa")
+   	fimse
+Fimalgoritmo
+
+
+
+
+
+
+Faça um algoritmo para entrar com nome, sexo e idade de uma pessoa. Se a pessoa for do sexo feminino e tiver menos que 25 anos, imprimir nome e mensagem: ACEITA. Caso contrário, imprimir nome e a mensagem: NÃO ACEITA. 
+Algoritmo "nome"
+
+Var
+   nome, sexo: caracter
+   idade: inteiro
+Inicio
+      escreval ("digite seu nome: ")
+      leia (nome)
+      escreval ("digite seu sexo: ")
+      leia (sexo)
+      escreval ("digite sua idade: ")
+      leia (idade)
+      se (sexo = "feminino") e (idade <= 25)entao
+         escreval ("ACEITA")
+      Senao
+      escreval ("NAO ACEITA")
+FIMSE
+Fimalgoritmo
+
+
+
+
+ Faça um algoritmo que lê o número de um funcionário, seu número de horas de trabalhadas e o valor que ele recebe por hora. o algoritmo deve calcular e mostrar o salario desde funcionario.
+Algoritmo "Salario"
+Var 
+NF,NHT,VPH,resultado:real
+Inicio
+escreva ("digite o numero do funcionario ")
+leia(NF)
+escreva ("digite o numero de horas trabalhadas ")
+leia (NHT)
+escreva ("digite o valor por hora ")
+leia (VPH)
+Resultado <- (NHT * VPH)
+escreva ("resultado =  ", resultado)
+Fimalgoritmo
+
+
+
+
+Faça um algoritmo que receba o ano de nascimento de uma pessoa e o ano atual, calcule e escreva a idade desta pessoa e quantos anos ela terá em 2050.
+Algoritmo "idade"
+Var
+   val1,val2,val3:real
+
+Inicio
+      val3<-2050
+     	escreval("Digite sua data de nascimento: ")
+     	leia (val1)
+     	escreval ("Digite o ano desta mensagem: ")
+     	leia (val2)
+     	escreval ("No ano de 2050 você terá: ",val3-val1)
+     	escreva ("anos")
+Fimalgoritmo
+
+
+
+Faça um algoritmo que verifique a validade de uma senha fornecida pelo usuário. A senha válida é o número 1234.   OBS: 	Se a senha informada pelo usuário for inválida, a mensagem "ACESSO NEGADO" deve ser exibida. Se for a correta, a mensagem "ACESSO PERMITIDO"  deverá ser exibida.
+algoritmo “acesso”
+var
+   senha:caracter
+inicio
+   escreval (" digite a senha para proceguir:")
+   leia (senha)
+   se senha = "1234" entao
+   escreva (" acesso liberado")
+   senao
+   escreva (" acesso negado")
+   fimse
+fimalgoritmo
+
+
